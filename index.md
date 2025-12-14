@@ -14,10 +14,10 @@ GitHub: https://github.com/mracul
 ---
 
 ## Quick Links
-- **Projects:** /projects/
-- **Labs:** /labs/
-- **Playbooks & Templates:** /playbooks/
-- **About:** /about/
+- [Projects](/projects/)
+- [Labs](/labs/)
+- [Playbooks & Templates](/playbooks/)
+- [About](/about/)
 
 ---
 
@@ -31,9 +31,9 @@ GitHub: https://github.com/mracul
 ## Featured Work
 ### ITIL Incident Management Case Study — Warehouse RF Scanner & System Outage
 A real-world incident write-up with impact analysis, ITIL-aligned handling, and prevention recommendations.  
-→ /projects/itil-incident-case-study
+→ [View Case Study](/projects/itil-incident-case-study)
 
 ### Home Lab — Windows + AD + Ticket Flow
 Service Desk-style lab: AD users, DNS basics, common support tickets, clear resolution notes.  
-→ /labs/windows-ad-lab
+→ [View Lab](/labs/windows-ad-lab)
 

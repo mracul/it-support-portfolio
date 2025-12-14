@@ -6,6 +6,6 @@ permalink: /labs/comptia-a-plus-labs
 
 # CompTIA A+ Practical Labs
 
-This page collects short, one-page lab writeups. See the practical lab templates in `projects/compTIA-labs` for authoring guidance.
+This page collects short, one-page lab writeups.
 
-- Lab templates: /projects/compTIA-labs/compTIA-a-practical-labs.md
+For authoring, see `projects/compTIA-labs/compTIA-a-practical-labs.md`.
