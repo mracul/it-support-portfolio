@@ -1,0 +1,48 @@
+---
+# Minima expects /assets/main.css; Jekyll will compile this SCSS to CSS.
+---
+
+@import "minima";
+
+/* Subtle layout + readability tweaks (GitHub Pages-safe) */
+:root {
+  --content-max: 68rem;
+}
+
+.wrapper {
+  max-width: var(--content-max);
+}
+
+/* Improve long-form readability */
+.post-content,
+.page-content {
+  line-height: 1.65;
+}
+
+/* Slightly larger headings and tighter rhythm */
+h1 {
+  letter-spacing: -0.02em;
+}
+
+h2,
+h3 {
+  margin-top: 2rem;
+}
+
+/* Better code block wrapping for narrow screens */
+pre,
+code {
+  tab-size: 2;
+}
+
+pre {
+  overflow-x: auto;
+}
+
+/* Make “Quick Links” lists feel more like navigation */
+.post-content ul li > strong,
+.page-content ul li > strong {
+  font-weight: 650;
+}
+
+

@@ -2,8 +2,8 @@ theme: minima
 title: Alexander Culic — IT Support Portfolio
 
 header_pages:
-	- index.md
-	- projects/index.md
-	- labs/index.md
-	- playbooks/index.md
-	- about.md
+  - index.md
+  - projects/index.md
+  - labs/index.md
+  - playbooks/index.md
+  - about.md
