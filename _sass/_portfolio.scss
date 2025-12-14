@@ -233,4 +233,92 @@
   border-color: #afb8c1;
 }
 
+/* ─────────────────────────────────────────────────────────
+   Skills Grid — compact skill showcase
+   ───────────────────────────────────────────────────────── */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.skill-item {
+  padding: 1rem 1.25rem;
+  background: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #424a53;
+}
+
+.skill-item strong {
+  display: block;
+  color: #24292f;
+  margin-bottom: 0.25rem;
+}
+
+/* ─────────────────────────────────────────────────────────
+   Collapsible Approach Section
+   ───────────────────────────────────────────────────────── */
+details {
+  margin: 1rem 0;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  background: #f6f8fa;
+}
+
+details summary {
+  cursor: pointer;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  list-style: none;
+  color: #24292f;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::before {
+  content: "▸ ";
+  color: #57606a;
+}
+
+details[open] summary::before {
+  content: "▾ ";
+}
+
+details[open] summary {
+  border-bottom: 1px solid #d0d7de;
+}
+
+.approach-section {
+  padding: 1rem 1.5rem 1.5rem;
+  background: #fff;
+  border-radius: 0 0 8px 8px;
+}
+
+.approach-section h3 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #24292f;
+}
+
+.approach-section h3:first-child {
+  margin-top: 0;
+}
+
+.approach-section ul {
+  margin: 0.5rem 0;
+  padding-left: 1.25rem;
+}
+
+.approach-section li {
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+  color: #424a53;
+}
 
