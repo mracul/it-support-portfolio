@@ -1,0 +1,158 @@
+/* Portfolio-specific UI additions (GitHub Pages compatible) */
+
+/* ─────────────────────────────────────────────────────────
+   Card Grid — Labs, Projects, Playbooks
+   ───────────────────────────────────────────────────────── */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  border: 1px solid #d0d7de;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+
+.card-image {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Gradient variants for visual distinction */
+.card-image--blue {
+  background: linear-gradient(135deg, #0969da 0%, #1f6feb 100%);
+}
+
+.card-image--purple {
+  background: linear-gradient(135deg, #8250df 0%, #a371f7 100%);
+}
+
+.card-image--teal {
+  background: linear-gradient(135deg, #1a7f64 0%, #2ea98f 100%);
+}
+
+.card-image--orange {
+  background: linear-gradient(135deg, #bc4c00 0%, #d18616 100%);
+}
+
+.card-image--slate {
+  background: linear-gradient(135deg, #424a53 0%, #57606a 100%);
+}
+
+.card-body {
+  padding: 1rem 1.25rem 1.25rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.card-title a {
+  color: #24292f;
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  color: #0969da;
+}
+
+.card-text {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #57606a;
+  line-height: 1.5;
+}
+
+/* ─────────────────────────────────────────────────────────
+   Hero header polish (home page)
+   ───────────────────────────────────────────────────────── */
+.hero-intro {
+  border-bottom: 1px solid #d8dee4;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero-intro h1 {
+  margin-bottom: 0.25rem;
+}
+
+.hero-intro .subtitle {
+  font-size: 1.1rem;
+  color: #57606a;
+  margin: 0 0 0.5rem;
+}
+
+.hero-intro .location {
+  color: #656d76;
+  font-size: 0.95rem;
+}
+
+.hero-intro .contact-row {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #424a53;
+}
+
+.hero-intro .contact-row a {
+  color: #0969da;
+}
+
+/* Quick links as horizontal pills */
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 2rem;
+}
+
+.quick-links li a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #24292f;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.quick-links li a:hover {
+  background: #eaeef2;
+  border-color: #afb8c1;
+}
+
+

@@ -4,16 +4,15 @@ title: Home
 ---
 
 <div class="hero-intro">
+  <h1>Alexander Culic</h1>
 
-# Alexander Culic
+  <p class="subtitle"><strong>Aspiring IT Support / Service Desk Technician</strong></p>
+  <p class="location">Auburn, NSW · Sydney</p>
 
-<p class="subtitle"><strong>Aspiring IT Support / Service Desk Technician</strong></p>
-<p class="location">Auburn, NSW · Sydney</p>
-
-<p class="contact-row">
-📧 <a href="mailto:alexanderculic@gmail.com">alexanderculic@gmail.com</a> · 📞 0488 682 877<br>
-<a href="https://linkedin.com/in/YOURPROFILE">LinkedIn</a> · <a href="https://github.com/mracul">GitHub</a>
-</p>
+  <p class="contact-row">
+    📧 <a href="mailto:alexanderculic@gmail.com">alexanderculic@gmail.com</a> · 📞 0488 682 877<br>
+    <a href="https://linkedin.com/in/YOURPROFILE">LinkedIn</a> · <a href="https://github.com/mracul">GitHub</a>
+  </p>
 
 </div>
 
