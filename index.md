@@ -8,7 +8,7 @@ title: Home
 
   <p class="subtitle"><strong>Entry-Level IT Support / Service Desk Technician</strong></p>
   <p class="value-line">Structured, ticket-driven IT support with a strong learning mindset, sound judgement, and disciplined documentation.</p>
-  <p class="location">Auburn, NSW · Sydney</p>
+  <p class="location">Sydney, NSW · Sydney</p>
 
   <ul class="contact-links">
     <li>📧 <a href="mailto:your.email@example.com">your.email@example.com</a></li>
@@ -24,9 +24,10 @@ title: Home
 
 <ul class="quick-links">
   <li><a href="/projects/">Projects (Start Here)</a></li>
-  <li><a href="/labs/">Labs</a></li>
-  <li><a href="/playbooks/">Playbooks / Knowledge Base</a></li>
-  <li><a href="/about/">Background & Experience</a></li>
+  <li><a href="/knowledge-base/">Knowledge Base</a></li>
+  <li><a href="/walkthroughs/">Walkthroughs</a></li>
+  <li><a href="/playbooks/">Playbooks</a></li>
+  <li><a href="/about/">About</a></li>
 </ul>
 
 ---
@@ -67,7 +68,7 @@ title: Home
   <div class="card-image card-image--purple">📋</div>
   <div class="card-body">
     <h3 class="card-title">
-      <a href="/projects/itil-incident-case-study">ITIL Incident Management Case Study</a>
+      <a href="/projects/itil-incident-case-study/">ITIL Incident Management Case Study</a>
     </h3>
     <p class="card-text">
       Real-world warehouse RF scanner and system outage analysis, including impact assessment,
@@ -75,7 +76,7 @@ title: Home
     </p>
     <p class="card-demonstrates"><em>Demonstrates incident triage, impact analysis, communication, and structured write-ups.</em></p>
     <div class="card-cta">
-      <a href="/projects/itil-incident-case-study">Read case study</a>
+      <a href="/projects/itil-incident-case-study/">Read case study</a>
     </div>
   </div>
 </div>
@@ -106,7 +107,7 @@ title: Home
 
 ## About This Portfolio
 
-This portfolio is organised around **real support outputs** — projects, tickets, playbooks, and incident write-ups — designed to show readiness for ticket-driven environments (including MSP-style support).
+This portfolio is organised around **real support outputs** — projects, tickets, knowledge base guides, and incident write-ups — designed to show readiness for ticket-driven environments (including MSP-style support).
 
 *Built for hiring managers and MSPs evaluating readiness for entry-level IT support roles.*
 

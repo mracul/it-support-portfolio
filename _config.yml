@@ -4,6 +4,7 @@ title: Alexander Culic — IT Support Portfolio
 header_pages:
   - index.md
   - projects/index.md
-  - labs/index.md
+  - knowledge-base/index.md
+  - walkthroughs/index.md
   - playbooks/index.md
-  - about.md
+  - about/index.md

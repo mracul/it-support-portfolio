@@ -22,9 +22,18 @@ Real-world scenarios and documentation samples — designed to demonstrate readi
 <div class="card">
   <div class="card-image card-image--purple">📋</div>
   <div class="card-body">
-    <h3 class="card-title"><a href="/projects/itil-incident-case-study">ITIL Incident Management Case Study</a></h3>
+    <h3 class="card-title"><a href="/projects/itil-incident-case-study/">ITIL Incident Management Case Study</a></h3>
     <p class="card-text">Warehouse RF scanner outage — impact analysis, ITIL-aligned handling, root cause, and prevention recommendations.</p>
     <p class="card-demonstrates"><em>Demonstrates incident triage, impact analysis, and structured write-ups.</em></p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-image card-image--orange">👤</div>
+  <div class="card-body">
+    <h3 class="card-title"><a href="/projects/user-lifecycle/">User Lifecycle Management</a></h3>
+    <p class="card-text">Operational guides and checklists for handling Joiners, Movers, and Leavers from a Service Desk perspective.</p>
+    <p class="card-demonstrates"><em>Demonstrates request execution, access validation, and process awareness.</em></p>
   </div>
 </div>
 
