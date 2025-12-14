@@ -7,7 +7,7 @@ title: Home
   <h1>Alexander Culic</h1>
 
   <p class="subtitle"><strong>Entry-Level IT Support / Service Desk Technician</strong></p>
-  <p class="value-line">Ticket-first support: triage → troubleshoot → escalate → document → close.</p>
+  <p class="value-line">Structured, ticket-driven IT support with a strong learning mindset, sound judgement, and disciplined documentation.</p>
   <p class="location">Auburn, NSW · Sydney</p>
 
   <ul class="contact-links">
